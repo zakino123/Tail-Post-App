@@ -5,10 +5,14 @@
   "repository": "git@github.com:zakino123/Tail-Post-App.git",
   "author": "zakino123 <15rb076@ms.dendai.ac.jp>",
   "license": "MIT",
+  "scripts": {
+    "css": "yarn postcss src/**/*.css -d public/css"
+  },
   "dependencies": {
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "postcss": "^8.4.8",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
