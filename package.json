@@ -1,0 +1,17 @@
+{
+  "name": "Tail-Post-App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zakino123/Tail-Post-App.git",
+  "author": "zakino123 <15rb076@ms.dendai.ac.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.8",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6"
+  }
+}
